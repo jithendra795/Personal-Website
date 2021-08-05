@@ -11,6 +11,8 @@
     <meta name="notice" content"NOTICE: This file has been modified from the original by Jithendra Pulivarthi.">
 
     <title>Jithendra Pulivarthi - Personal Website</title>
+    <link rel="shortcut icon" type="image/png" href="favicon-github.png" />
+    <link rel="alternate" href="http://www.martinpetkov.me" hreflang="en-ca" />
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +21,7 @@
     <link href="css/personal-website.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,7 +44,7 @@
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      })(window,document,'script','js/analytics.js','ga');
     
       ga('create', 'UA-68947679-1', 'auto');
       ga('send', 'pageview');
@@ -109,9 +111,9 @@
         <!-- Contact Form -->
         <div class="row">
             <div class="col-md-8">
-                <p>If you have any comments on the website or would like to reach me, you can send me an email at <a href="pulivarthi_jithendra@srmap.edu.in">pulivarthi_jithendra@srmap.edu.in</a>, or use the form below.</p>
+                <p>If you have any comments on the website or would like to reach me, you can send me an email at <a href="mailto:pulivarthi_jithendra@srmap.edu.in">pulivarthi_jithendra@srmap.edu.in</a>, or use the form below.</p>
                 <br>
-                <form method="POST" action="https://mail.google.com/mail/u/0/#inbox" name="sentMessage" id="contactForm" novalidate>
+                <form method="POST" action="https://formspree.io/f/mnqlgoag" name="sentMessage" id="contactForm" novalidate>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Your Name:</label>
@@ -132,7 +134,7 @@
                         </div>
                     </div>
                     <div id="success"></div>
-                    <input type="hidden" name="_next" value="//www.martinpetkov.me/thanks.html" />
+                    <input type="hidden" name="_next" value="thanks.html" />
                     <button type="submit" value="Send" class="btn btn-primary">Send Message</button>
                 </form>
             </div>
